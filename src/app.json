@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/search/main",
+    "pages/index/main",
+    "pages/active/main",
+    "pages/active_detail/main",
+    "pages/me/main",
+    "pages/space/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/acinvita/main",
+    "pages/webview/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor":"#A292FF",
+    "onReachBottomDistance":50,
+    "navigationBarBackgroundColor": "#A292FF",
+    "navigationBarTitleText": "偶像名人堂",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor": "#A292FF",
+    "color": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "iconPath": "./static/images/home.png",
+      "selectedIconPath": "./static/images/homea.png",
+      "pagePath": "pages/home/main",
+      "text": "首页"
+    }, {
+      "iconPath": "./static/images/support.png",
+      "selectedIconPath": "./static/images/supporta.png",
+      "pagePath": "pages/active/main",
+      "text": "应援"
+    },{
+      "iconPath": "./static/images/me.png",
+      "selectedIconPath": "./static/images/mea.png",
+      "pagePath": "pages/me/main",
+      "text": "我的"
+    }]
+  }
+}
