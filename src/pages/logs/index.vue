@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     pays(e){
-      pay(e.currentTarget.dataset.id,`pages/space/main?starid=${this.$root.$mp.query.starid}`,'ios').then(res => {
+      pay(e.currentTarget.dataset.id,`pages/space/main?starid=${this.$root.$mp.query.starid}`,'android').then(res => {
           if(res.code != "SUCCESS"){
             toast('唤起支付失败/(ㄒoㄒ)/~~')
             return;
